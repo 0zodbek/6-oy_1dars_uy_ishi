@@ -1,6 +1,7 @@
 import "./App.css";
 
 import logo from "./assets/images/logo.svg";
+import hero_img from "./assets/images/turist.png"
 
 function App() {
   return (
@@ -131,7 +132,7 @@ function App() {
         </div>
 
         <div className="hero-img-part">
-          <img src="src/assets/images/turist.png" alt="" />
+          <img src={hero_img} alt="" />
         </div>
       </div>
       <div className="company container">
