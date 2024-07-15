@@ -1,5 +1,7 @@
 import "./App.css";
 
+import logo from "./assets/images/logo.svg";
+
 function App() {
   return (
     <>
@@ -9,7 +11,7 @@ function App() {
             <img
               width={28}
               height={28}
-              src="src/assets/images/logo.svg"
+              src={logo}
               alt="logo_icon"
             />
             <p>Destinize</p>
@@ -152,7 +154,6 @@ function App() {
             <h3>Raja Ampat</h3>
             <p>Bali</p>
             </div>
-            <div className="bg"></div>
           </div>
           <div className="card">
             <img src="src/assets/images/img2.png" alt="" />
@@ -168,7 +169,6 @@ function App() {
             <h3>Raja Ampat</h3>
             <p>Bali</p>
             </div>
-            <div className="bg"></div>
           </div>
           <div className="card">
             <img src="src/assets/images/img4.png" alt="" />
