@@ -146,6 +146,38 @@ function App() {
           </div>
         </div>
         <div className="main-temukan">
+          <div className="card">
+            <img src="src/assets/images/img1.png" alt="" />
+            <div className="info-card">
+            <h3>Raja Ampat</h3>
+            <p>Bali</p>
+            </div>
+            <div className="bg"></div>
+          </div>
+          <div className="card">
+            <img src="src/assets/images/img2.png" alt="" />
+            <div className="info-card">
+            <h3>Raja Ampat</h3>
+            <p>Bali</p>
+            </div>
+            <div className="bg"></div>
+          </div>
+          <div className="card">
+            <img src="src/assets/images/img3.png" alt="" />
+            <div className="info-card">
+            <h3>Raja Ampat</h3>
+            <p>Bali</p>
+            </div>
+            <div className="bg"></div>
+          </div>
+          <div className="card">
+            <img src="src/assets/images/img4.png" alt="" />
+            <div className="info-card">
+            <h3>Raja Ampat</h3>
+            <p>Bali</p>
+            </div>
+            <div className="bg"></div>
+          </div>
         </div>
       </div>
     </>

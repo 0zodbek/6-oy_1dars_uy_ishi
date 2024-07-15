@@ -320,18 +320,73 @@ height: 24px;
 
 .temukan {
 width: 1196px;
-display: flex;
-justify-content: space-between;
-align-items: center;
 padding: 0;
 }
-.left-part{
+
+.left-part h2{
 width: 784px;
+font-size: 48px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: -0.01em;
+text-align: left;
+color:#14183E;
+margin-top: 12px;
 }
 
+.left-part a{
+font-size: 18px;
+font-weight: 800;
+line-height: 26.5px;
+letter-spacing: 0.095em;
+text-align: left;
+color:#4475F2;
+text-decoration: none;
+}
 
+.main-temukan{
+margin-top: 46px;
+display: flex;
+gap: 26.7px;
+}
 
+.card{
+width: 278.46px;
+height: 392.86px;
+/* border:1px solid #232323; */
+position: relative;
+}
+.bg{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+width: 149px;
+height: 76px;
+background-color: #FFFFFFB2;
+}
 
+.info-card {
+  z-index: 10;
+  position: absolute;
+width: 104px;
+height: 60px;
+left: 20px;
+bottom: 5px;
+}
+h3{
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20.5px;
+  text-align: left;
+  color:#042521;
+}
+.info-card p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20.5px;
+  text-align: left;
+color:#80918E;  
+}
 
 
 
